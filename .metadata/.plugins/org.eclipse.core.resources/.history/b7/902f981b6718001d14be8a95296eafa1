@@ -1,0 +1,28 @@
+package com.finexus.stringbuilder;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		
+		//immutable
+				String color="red"; 
+				
+				
+				color="yellow";
+				color="blue";
+				color=color+" color"; //immutable so it will create new memory and then load blue color 
+				
+				
+				
+				System.out.println(color);
+				
+				
+		StringBuilder strBuilder=new StringBuilder("red");
+		strBuilder.append(" color");
+		
+		
+		System.out.println(strBuilder);
+		
+	}
+
+}

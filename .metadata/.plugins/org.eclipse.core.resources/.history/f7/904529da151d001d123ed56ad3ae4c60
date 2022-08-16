@@ -1,0 +1,11 @@
+package com.finexus.exceptions;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		
+		var num=new int[2];
+		
+		
+	}
+}

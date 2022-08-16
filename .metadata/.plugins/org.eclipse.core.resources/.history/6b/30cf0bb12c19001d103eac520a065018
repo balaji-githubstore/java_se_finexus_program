@@ -1,0 +1,12 @@
+package com.finexus.datatypes;
+
+public class Demo3 {
+	
+	public static void main(String[] args) {
+		
+		int res=22/7;
+		System.out.println(res);
+		
+	}
+
+}

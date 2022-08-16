@@ -1,0 +1,20 @@
+package com.finexus.overloading;
+
+public class Student {
+	public int empId;
+	public String empName;
+	public double empSalary;
+	public static String companyName;
+	
+		
+	public void displayEmployeeDetails()
+	{
+		System.out.println("Employee Id: "+empId);
+		System.out.println("Employee Name: "+empName);
+		System.out.println("Employee Salary: "+empSalary);
+		System.out.println("Company Name: "+Employee.companyName);
+		System.out.println("------------------------------------");
+	}
+	
+	
+}

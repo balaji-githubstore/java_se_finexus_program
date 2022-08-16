@@ -1,0 +1,37 @@
+package com.finexus.inheritance;
+
+class Father{
+	public int fAge=60;
+	
+	public void fatherStyle()
+	{
+		System.out.println("Father Style 123!!");
+	}
+	
+}
+
+class Son extends Father
+{
+	public int sAge=20;
+	
+	public void sonStyle()
+	{
+		System.out.println("Son Style!!");
+	}
+}
+
+
+
+public class InheritanceDemo {
+	public static void main(String[] args) {
+		
+		Son s=new Son();
+		
+		System.out.println(s.fAge);
+		System.out.println(s.sAge);
+		s.fatherStyle();
+		s.sonStyle();
+		
+	}
+
+}

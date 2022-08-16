@@ -1,0 +1,20 @@
+package com.finexus.loops;
+
+public class Demo2 {
+
+	public static void main(String[] args) {
+		
+
+		//1 to 10
+		for(int i=0;i<=10;i++)
+		{
+			System.out.println(i);
+			if(i==5)
+			{
+				
+			}
+		}
+		
+	
+	}
+}

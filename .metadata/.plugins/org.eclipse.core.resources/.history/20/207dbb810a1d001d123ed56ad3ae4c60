@@ -1,0 +1,27 @@
+package com.finexus.interfacedemo2;
+
+interface TakeScreenshot1
+{
+	void getScreenshot();
+}
+
+interface WebDriver1 extends TakeScreenshot1 {
+
+	public abstract void closeTab();
+
+	void quitBrowser();
+
+	void click(String element);
+}
+
+
+
+public class BrowserAutomation {
+
+	public static void main(String[] args) {
+	
+		
+
+	}
+
+}

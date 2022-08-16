@@ -1,0 +1,25 @@
+package com.finexus.exceptions;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		
+		try
+		{
+			int[] num=new int[2];
+			
+			System.out.println(num[10]); //new ArrayIndexOutOfBoundsException(e)
+
+		}
+		catch (ArrayIndexOutOfBoundsException e) {
+
+			System.out.println(e.getMessage());
+		}
+		
+		
+		
+		System.out.println("Done by Balaji Dinakaran");
+		System.out.println("Code Ran!!!");
+		
+	}
+}

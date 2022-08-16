@@ -1,0 +1,13 @@
+package com.finexus.collections;
+
+import java.util.ArrayList;
+
+public class Demo2ArrayListNonGeneric {
+
+	public static void main(String[] args) {
+		
+		ArrayList lists=new ArrayList();
+		
+		
+	}
+}

@@ -1,0 +1,18 @@
+package com.finexus.lesson4;
+
+public class ShoppingCart {
+	
+	public static void main(String[] args) {
+		
+		// Declare and initialize two String variables: custName as John and itemDesc as laptop.
+		String custName="John";
+		String itemDesc="laptop";
+
+        // Declare a String variable called message. Do not initialize it.
+               
+        // Assign the message variable with a concatenation of the custName and itemDesc. 
+        
+        // Print message to the System output.
+
+	}
+}

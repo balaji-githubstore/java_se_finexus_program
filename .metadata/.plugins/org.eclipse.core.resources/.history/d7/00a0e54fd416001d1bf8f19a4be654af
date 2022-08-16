@@ -1,0 +1,13 @@
+package com.finexus.logics;
+
+public class Demo1ConditionalStatement {
+	
+	public static void main(String[] args) {
+		
+		int num=50;
+		
+		System.out.println(num>50);
+		
+	}
+
+}

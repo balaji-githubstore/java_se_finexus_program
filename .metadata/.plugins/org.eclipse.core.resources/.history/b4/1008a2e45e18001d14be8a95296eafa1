@@ -1,0 +1,26 @@
+package com.finexus.stringmethods;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		
+		String name="Environment Science";
+		
+		
+//		int len=name.length();
+//		System.out.println(len);
+//		
+//		char letter=name.charAt(0);
+//		System.out.println(letter);
+//		
+//		String uName=name.toUpperCase();
+//		System.out.println(uName);
+//		
+//		
+//		System.out.println(name.toLowerCase());
+//		
+		String output=name.substring(1);
+		System.out.println(output);
+		
+	}
+}

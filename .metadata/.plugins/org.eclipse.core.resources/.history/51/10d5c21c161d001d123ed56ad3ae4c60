@@ -1,0 +1,16 @@
+package com.finexus.exceptions;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		
+		int[] num=new int[2];
+		
+		System.out.println(num[10]);
+
+		
+		System.out.println("Done by Balaji Dinakaran");
+		System.out.println("Code Ran!!!");
+		
+	}
+}

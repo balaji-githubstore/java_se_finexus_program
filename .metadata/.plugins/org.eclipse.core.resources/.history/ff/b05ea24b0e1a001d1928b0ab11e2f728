@@ -1,0 +1,17 @@
+package com.finexus.collections;
+
+import java.util.ArrayList;
+
+public class Demo2ArrayListNonGeneric {
+
+	public static void main(String[] args) {
+		
+		ArrayList lists=new ArrayList();
+		
+		lists.add(45);
+		lists.add(45.2);
+		lists.add("John");
+		
+		
+	}
+}

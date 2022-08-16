@@ -1,0 +1,32 @@
+package soccer;
+
+public class League {
+
+	public static void main(String[] args) {
+		
+		//team 1
+		Player player1=new Player();
+		player1.playerName="George Elliot";
+
+		Player player2=new Player();
+		player2.playerName="Graham Greene";
+		
+		Player player3=new Player();
+		player3.playerName="Geoffrey Chaucer";
+		
+		//create playerarray and add it to players
+		Player[] playerArray=new Player[3];
+		playerArray[0]=player1;
+		playerArray[1]=player2;
+		playerArray[2]=player3;
+		
+		Team team1=new Team();
+		team1.teamName="The Greens";
+		team1.playerArray=playerArray;
+		
+		//Practice - 6-1, till 8 completed 
+		
+		//Practice - 6-1 --> complete from 9 to 11
+	}
+
+}

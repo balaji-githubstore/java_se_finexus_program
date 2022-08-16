@@ -1,0 +1,22 @@
+package com.finexus.collections;
+
+import java.util.ArrayList;
+
+public class Demo3ArrayListGeneric {
+
+	public static void main(String[] args) {
+		
+
+		//size is dynamic
+		//when need to manipulate the collections then ArrayList is preferred. 
+		
+		ArrayList<String> colors=new ArrayList<String>();
+		
+		colors.add("red");
+		colors.add("green");
+		colors.add("yellow");
+		
+		System.out.println();
+		System.out.println(colors.get(0));
+	}
+}

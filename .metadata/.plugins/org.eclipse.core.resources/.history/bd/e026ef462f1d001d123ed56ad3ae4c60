@@ -1,0 +1,14 @@
+package com.finexus.objectoverride;
+
+public class Account {
+	private int accountNumber;
+	private String accountName;
+
+	public Account(int accountNumber,String accountName)
+	{
+		this.accountNumber=accountNumber;
+		this.accountName=accountName;
+	}
+	
+	public 
+}

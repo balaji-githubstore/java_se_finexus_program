@@ -1,0 +1,5 @@
+package com.finexus.collections;
+
+public class Demo2ArrayListNonGeneric {
+
+}

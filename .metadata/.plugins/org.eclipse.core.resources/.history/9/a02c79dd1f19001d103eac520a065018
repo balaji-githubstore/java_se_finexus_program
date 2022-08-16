@@ -1,0 +1,30 @@
+package com.finexus.overloading;
+
+public class Student 
+{
+	private int studentId;
+	public String studentName;
+	public double studentPercentage;
+	public static String schoolName;
+
+	public Student(int studentId)
+	{
+		this.studentId=studentId;
+	}
+		
+	public Student(int studentId,String studentName)
+	{
+		this.studentId=studentId;
+	}
+	
+	public void printStudentDetails()
+	{
+		System.out.println("student Id: "+studentId);
+		System.out.println("student Name: "+studentName);
+		System.out.println("student Salary: "+studentPercentage);
+		System.out.println("Company Name: "+Student.schoolName);
+		System.out.println("------------------------------------");
+	}
+	
+	
+}

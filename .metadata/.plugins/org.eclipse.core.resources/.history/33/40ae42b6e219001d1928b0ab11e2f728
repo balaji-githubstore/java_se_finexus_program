@@ -1,0 +1,12 @@
+package exercise_12_1;
+
+public class Shirt {
+	private char size;
+	private char colorCode; 
+	
+	public Shirt(double price,char size,char colorCode)
+	{
+		
+	}
+
+}

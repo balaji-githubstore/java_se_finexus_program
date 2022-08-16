@@ -1,0 +1,16 @@
+package com.finexus.runner;
+
+import com.finexus.movie.Movie;
+
+public class MovieRunner {
+	
+	public static void main(String[] args) {
+		
+		
+		Movie mov1=new Movie();
+		mov1.setMovieName("King");
+		mov1.setActorName("JD");
+		mov1.setYear(2003);
+	}
+
+}

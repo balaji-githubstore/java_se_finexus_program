@@ -1,0 +1,18 @@
+package com.finexus.datatypes;
+
+public class Demo3 {
+	
+	public static void main(String[] args) {
+
+		float a=10.2f; //32 bit
+		
+		double b=a; //32 bit into 64 bits //implicit conversion 
+		
+		
+		float x=(float) b; //64 bit to 32 bit //explicit conversion
+		
+		System.out.println(b);
+		
+	}
+
+}

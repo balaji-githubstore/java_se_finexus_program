@@ -1,0 +1,40 @@
+package com.finexus.employee_encap;
+
+public class Employee {
+	private int empId;
+	public String empName;
+	private double empSalary;
+	private long empPhoneNumber;
+
+	public static String companyName;
+	public static int counter = 101;
+
+	public Employee() {
+		empId = counter;
+		counter = counter + 1;
+	}
+
+	public void displayEmployeeDetails() {
+		System.out.println("Employee Id: " + empId);
+		System.out.println("Employee Name: " + empName);
+		System.out.println("Employee Salary: " + empSalary);
+		System.out.println("Company Name: " + Employee.companyName);
+		System.out.println("------------------------------------");
+	}
+
+	// setter //write
+	public void setEmpSalary(double empSalary) {
+		if (empSalary > 1000) {
+			this.empSalary = empSalary;
+		} else {
+			System.out.println("Invalid Salary Details!! It should be greater than 1000");
+		}
+	}
+	
+	//read
+	public double getEmpSalary()
+	{
+		return empSalary;
+	}
+	//create getter and setter method for phonenumebr. phonenumber should be 10 digit. 
+}

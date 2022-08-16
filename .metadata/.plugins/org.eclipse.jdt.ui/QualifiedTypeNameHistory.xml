@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.awt.geom.Area"/>
+    <fullyQualifiedTypeName name="com.finexus.area.Area"/>
+    <fullyQualifiedTypeName name="com.finexus.variable.Demo1"/>
+    <fullyQualifiedTypeName name="com.finexus.lesson6.Item"/>
+    <fullyQualifiedTypeName name="soccer.Player"/>
+    <fullyQualifiedTypeName name="soccer.Goal"/>
+    <fullyQualifiedTypeName name="soccer.Team"/>
+    <fullyQualifiedTypeName name="soccer.Game"/>
+    <fullyQualifiedTypeName name="soccer.League"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="com.finexus.overloading.Student"/>
+    <fullyQualifiedTypeName name="com.finexus.methodoverloading.Calculator"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="com.finexus.constructoroverloading.Student"/>
+    <fullyQualifiedTypeName name="com.finexus.inheritance.Father"/>
+    <fullyQualifiedTypeName name="com.finexus.inheritance.Son"/>
+    <fullyQualifiedTypeName name="com.finexus.inheritance.GrandSon"/>
+    <fullyQualifiedTypeName name="exercise_12_1.Item"/>
+    <fullyQualifiedTypeName name="exercise_12_1.Shirt"/>
+    <fullyQualifiedTypeName name="com.finexus.methodoverriding.Dog"/>
+    <fullyQualifiedTypeName name="com.finexus.methodoverriding.Animal"/>
+    <fullyQualifiedTypeName name="com.finexus.methodoverriding.Cat"/>
+    <fullyQualifiedTypeName name="com.finexus.lesson9.Customer"/>
+    <fullyQualifiedTypeName name="exercise_12_3.ShoppingCart"/>
+    <fullyQualifiedTypeName name="exercise_12_3.Item"/>
+    <fullyQualifiedTypeName name="exercise_12_3.Trouser"/>
+    <fullyQualifiedTypeName name="com.finexus.abstraction.ContractEmployee"/>
+    <fullyQualifiedTypeName name="com.finexus.abstraction.PermanentEmployee"/>
+    <fullyQualifiedTypeName name="com.finexus.abstraction.Employee"/>
+    <fullyQualifiedTypeName name="com.finexus.employee_encap.Employee"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.finexus.employee.Employee"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,22 @@
+package com.finexus.methods;
+
+public class Demo1 {
+	
+	
+	
+	public static double areaOfCircle(int r)
+	{
+		double area=3.14*r*r;
+		return area;
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		int radius=10;
+		
+		
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.finexus.loops;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		
+		int[] coupons= {10,20,30,40,50,89};
+		
+		System.out.println(coupons.length);
+		//1 to 10
+		for(int i=0;i<coupons.length;i++)
+		{
+			System.out.println(coupons[i]);
+		}
+		
+		System.out.println("------------------");
+		
+		for(int coupon : coupons)
+		{
+			System.out.println(coupon);
+		}
+		
+	}
+}

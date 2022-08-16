@@ -1,0 +1,14 @@
+package com.finexus.stringmethods;
+
+public class Demo3 {
+	
+	public static void main(String[] args) {
+		
+		String name="Balaji Dinakaran";
+		
+		String[] arr=name.split(" ");
+		
+		System.out.println(arr[0]);
+	}
+
+}

@@ -1,0 +1,26 @@
+package com.finexus.runner;
+
+import java.io.PrintStream;
+import java.util.Scanner;
+
+import com.finexus.movie.Movie;
+
+public class MovieRunner {
+	
+	public static void main(String[] args) {
+		
+		Scanner scanner=new Scanner(System.in);
+		
+//	   int input=scanner.nextInt();
+	   String line=	scanner.nextLine();
+		
+	   
+	   System.out.println(line);
+		
+		
+		
+		
+		
+	}
+
+}

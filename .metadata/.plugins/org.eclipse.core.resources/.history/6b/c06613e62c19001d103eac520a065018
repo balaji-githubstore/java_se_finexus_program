@@ -1,0 +1,15 @@
+package com.finexus.datatypes;
+
+public class Demo3 {
+	
+	public static void main(String[] args) {
+
+		float a=10.2f;
+		
+		double b=a;
+		
+		
+		
+	}
+
+}

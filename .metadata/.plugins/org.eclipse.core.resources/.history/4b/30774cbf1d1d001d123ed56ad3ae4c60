@@ -1,0 +1,23 @@
+package com.finexus.runner;
+
+import java.util.Scanner;
+
+import com.finexus.movie.Movie;
+
+public class MovieRunner {
+	
+	public static void main(String[] args) {
+		
+		Scanner scanner=new Scanner(System.in);
+		
+		Movie mov1=new Movie();
+		mov1.setMovieName("King");
+		mov1.setActorName("JD");
+		mov1.setYear(2003);
+		
+		System.out.println("Movie Name: "+mov1.getMovieName());
+		System.out.println("Actor Name: "+mov1.getActorName());
+		System.out.println("Year: "+mov1.getYear());
+	}
+
+}

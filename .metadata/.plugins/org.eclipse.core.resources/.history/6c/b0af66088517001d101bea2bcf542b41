@@ -1,0 +1,16 @@
+package com.finexus.methods;
+
+public class Demo1 {
+	
+	
+	public static void main(String[] args) {
+		
+		int radius=10;
+		
+		//caculate area of circle - 3.14 * radius * radius
+		
+		double result=3.14 * radius * radius;
+		System.out.println(result);
+	}
+
+}

@@ -1,0 +1,39 @@
+package com.finexus.lesson4;
+
+public class ShoppingCart {
+	
+	public static void main(String[] args) {
+		
+		// Declare and initialize two String variables: custName as John and itemDesc as laptop.
+		String custName="John"; //4*16 bits of memory 
+		String itemDesc="laptop"; //6*16 bits of memory
+
+        // Declare a String variable called message. Do not initialize it.
+		String message;
+               
+        // Assign the message variable with a concatenation of the custName and itemDesc. 
+		message=custName+" "+itemDesc;
+        
+        // Print message to the System output.
+		System.out.println(message);
+		
+		
+//		1. Declare and initialize numeric fields. Include price and tax (double), 
+//	     quantity (int). Also declare a double called total, but do not initialize it.
+//		2. Change the message variable to include quantity 
+//	      (example: "Mary Smith wants to purchase 1 Shirt.")
+//		3. Calculate total by multiplying price * quantity * tax.
+//		4. Print a message showing the total cost. 
+//	      (example:  "Total cost with tax is: 25.78.") 
+		
+		
+//		1. Declare a boolean, outOfStock, and initialize it to true.
+//		2. Use an if statement to test the value of quantity.  
+//		    If it is > 1, concatenate an 's' to message so that it indicates multiple items.
+//		3. Use an if | else statement that tests the value of outOfStock.
+//		    If true, let the user know the item is unavailable.
+//		    If false, print the message variable, then print the total cost with tax.
+//		4. Run with outOfStock = true and then again with outOfStock = false.
+
+	}
+}

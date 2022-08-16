@@ -1,0 +1,11 @@
+package com.finexus.variable;
+
+public class Demo1 {
+
+	public static int aS=10; //static variable or class variable
+	public int aNS=10; //non-static variable or instance variable 
+	
+	
+	
+	
+}

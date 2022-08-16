@@ -1,0 +1,27 @@
+package com.finexus.employee_encap;
+
+public class EmployeeDemo {
+
+	public static void main(String[] args) {
+
+		Employee.companyName = "Finexus";
+
+		Employee emp1 = new Employee();
+		Employee emp2 = new Employee();
+		Employee emp3 = new Employee();
+
+		System.out.println(emp1);
+		emp1.empName = "John";
+		emp1.setEmpSalary(5000);
+
+		emp2.empName = "Peter";
+
+		emp3.empName = "Paul";
+
+		emp1.displayEmployeeDetails();
+		emp2.displayEmployeeDetails();
+		emp3.displayEmployeeDetails();
+
+	}
+
+}

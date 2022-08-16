@@ -1,0 +1,36 @@
+package com.finexus.interfacedemo2;
+
+public interface WebDriver {
+	public static final String BROWSER_SUPPORT="ch,ff";
+	
+	public abstract void closeTab();
+
+	void quitBrowser();
+
+	void click(String element);
+}
+
+public class BrowserAutomation {
+
+	public static void main(String[] args) {
+		
+		String browser="edge";
+		WebDriver driver;
+		
+		if(browser.equalsIgnoreCase("ch"))
+		{
+			driver=new ChromeDriver();
+		}
+		else
+		{
+			driver=new EdgeDriver();
+		}
+				
+		driver.launchBrowser();
+		driver.click("ele1");
+		
+		
+
+	}
+
+}

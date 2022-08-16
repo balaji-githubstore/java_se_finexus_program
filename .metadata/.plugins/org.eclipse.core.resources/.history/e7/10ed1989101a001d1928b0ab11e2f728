@@ -1,0 +1,8 @@
+package com.finexus.collections;
+
+public class Demo5ArrayListGeneric {
+	public static void main(String[] args) {
+		
+	}
+
+}

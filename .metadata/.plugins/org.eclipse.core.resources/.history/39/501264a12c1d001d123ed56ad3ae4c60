@@ -1,0 +1,19 @@
+package com.finexus.twodimarr;
+
+public class Demo1 {
+	
+	public static void main(String[] args) {
+		
+		
+		int[] number= {10,20,30,40,50};
+		System.out.println(number);
+		System.out.println(number.length);
+		System.out.println(number[0]);
+		
+		
+		int[][] arr= {{10,20},{30,40},{50,60}};
+		
+		
+	}
+
+}

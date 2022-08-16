@@ -1,0 +1,25 @@
+package com.finexus.methods;
+
+import com.finexus.area.Area;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+
+		int radius = 10;
+
+		double result = Area.areaOfCircle(9);
+		System.out.println(result);
+
+		result = Area.areaOfCircle(10);
+		System.out.println(result);
+
+		result = Area.areaOfRectangle(10, 10.2);
+		System.out.println(result);
+
+		System.out.println(Area.areaOfTriangle(25, 1));
+		
+		Sring authorName=Area.getAuthorName();
+	}
+
+}

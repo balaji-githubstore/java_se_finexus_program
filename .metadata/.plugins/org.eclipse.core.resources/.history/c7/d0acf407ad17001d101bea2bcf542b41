@@ -1,0 +1,12 @@
+package com.finexus.lesson6;
+
+public class ShoppingCart {
+
+	public static void main(String[] args) {
+		
+		Item item1=new Item();
+		Item item2=new Item();
+		
+		
+	}
+}

@@ -1,0 +1,24 @@
+package com.finexus.abstraction;
+
+
+class Employee
+{
+	public int empId;
+	public String empName;
+	
+	public void displayEmployeeDetails()
+	{
+		System.out.println("Employee Id: "+empId);
+		System.out.println("Employee Name: "+empName);
+	}
+}
+
+
+
+public class EmployeeDemo {
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

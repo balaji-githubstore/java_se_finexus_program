@@ -1,0 +1,30 @@
+package com.finexus.abstraction;
+
+
+class Employee
+{
+	public int empId;
+	public String empName;
+	public double empSalary;
+	final char TYPE='P';
+
+	public void displayEmployeeDetails()
+	{
+		System.out.println("Employee Id: "+empId);
+		System.out.println("Employee Name: "+empName);
+		System.out.println("Employee Salary: "+empSalary);
+		System.out.println("------------------------------------");
+	}
+	
+	public void calculateSalary()
+}
+
+
+
+public class EmployeeDemo {
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

@@ -1,0 +1,32 @@
+package com.finexus.methods;
+
+import com.finexus.area.Area;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+
+		int radius = 10;
+		
+		//allocating memory for non-static variables, methods 
+		Area obj=new Area();  
+		
+
+		double result = obj.areaOfCircle(radius);
+		System.out.println(result);
+
+		result = obj.areaOfCircle(9);
+		System.out.println(result);
+
+		result = Area.areaOfRectangle(10, 10.2);
+		System.out.println(result);
+
+		System.out.println(obj.areaOfTriangle(25, 1));
+		
+		String authorName=Area.getAuthorName();
+		System.out.println(authorName);
+		
+		Area.openDBConnection();
+	}
+
+}

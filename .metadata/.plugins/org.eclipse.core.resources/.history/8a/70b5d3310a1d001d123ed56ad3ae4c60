@@ -1,0 +1,25 @@
+package com.finexus.interfacedemo2;
+
+public interface WebDriver {
+	public static final String BROWSER_SUPPORT="ch,ff";
+	
+	public abstract void closeTab();
+
+	void quitBrowser();
+
+	void click(String element);
+
+	void type(String element, String text);
+
+	void mouseHover(String element);
+
+	void launchBrowser();
+
+	void launchUrl(String url);
+
+	String getTitle();
+
+	String getCurrentUrl();
+	
+	void gotoNewTab();
+}

@@ -1,0 +1,27 @@
+package com.finexus.methods;
+
+public class Demo2 {
+	
+	public static void main(String[] args) {
+		
+		
+		String color1="red";
+		
+		String color2="red";
+		
+		String color3=new String("red");
+		
+		System.out.println(color1);
+		System.out.println(color2);
+		System.out.println(color3);
+		
+		
+		System.out.println(color1==color2);
+		System.out.println(color1==color3);
+		
+		//does only text case senstive comparison 
+		System.out.println(color1.equals(color2));
+		System.out.println(color1.equals(color3));
+	}
+
+}

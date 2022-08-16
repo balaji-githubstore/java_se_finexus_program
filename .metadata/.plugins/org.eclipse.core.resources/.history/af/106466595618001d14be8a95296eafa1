@@ -1,0 +1,51 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package soccer;
+
+/**
+ *
+ * @author Administrator
+ */
+public class League {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        
+        
+        /* Practice 8-1. Delete next three lines */
+        Game currGame = new Game();
+        currGame.homeTeam = team1;
+        currGame.awayTeam = team2;
+        
+        Goal goal1 = new Goal();
+        goal1.thePlayer = currGame.homeTeam.playerArray[2];
+        goal1.theTeam = currGame.homeTeam;
+        goal1.theTime = 55;
+        Goal[] theGoals = {goal1};
+        currGame.goals = theGoals;
+        
+        System.out.println("Goal scored after " + 
+                currGame.goals[0].theTime + " mins by " +
+                currGame.goals[0].thePlayer.playerName + " of " +
+                currGame.goals[0].theTeam.teamName);
+  
+    }
+    
+    
+    /* Practice 8-1. Add new static method createTeams() here */
+    public static Team[] createTeams()
+    {
+    	
+    }
+    
+    
+    /* Practice 8-1. Add new static method createGames() here */
+    
+}

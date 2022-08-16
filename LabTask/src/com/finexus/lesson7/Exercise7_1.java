@@ -1,0 +1,23 @@
+package com.finexus.lesson7;
+//Exercise 7-1
+//
+//1. Use the indexOf method to get the index for the space character (" ")
+//     within custName.  Assign it to spaceIdx.
+//2. Use the substring method and the spaceIdx to get the first name
+//     portion of custName.  Assign it to firstName.  Print firstName.
+
+public class Exercise7_1 {
+
+	public static void main(String[] args) {
+
+		String custName = "Steve Smith";
+		String firstName;
+		int spaceIdx;
+
+		// Get the index of the space character (" ") in custName.
+
+		// Use the substring method to parse out the first name and print it.
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package com.finexus.interfacedemo;
+
+
+
+public class BrowserAutomation {
+
+	public static void main(String[] args) {
+		
+		String browser="ch";
+		
+		if(browser.equalsIgnoreCase("ch"))
+		{
+			WebDriver driver=new ChromeDriver();
+		}
+		else
+		{
+			WebDriver driver=new EdgeDriver();
+		}
+		
+	
+		
+		driver.launchBrowser();
+		driver.click("ele1");
+		
+		
+
+	}
+
+}

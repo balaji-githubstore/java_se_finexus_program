@@ -1,0 +1,36 @@
+package com.finexus.interfacedemo2;
+
+interface TakeScreenshot1
+{
+	void getScreenshot();
+}
+
+interface ScriptRunner
+{
+	void runScript();
+}
+
+interface WebDriver1 extends TakeScreenshot1,ScriptRunner {
+
+	public abstract void closeTab();
+
+	void quitBrowser();
+
+	void click(String element);
+}
+
+class ChromeDriverDemo
+{
+	
+}
+
+
+public class BrowserAutomation {
+
+	public static void main(String[] args) {
+	
+		
+
+	}
+
+}

@@ -1,0 +1,27 @@
+/* Copyright © 2016 Oracle and/or its affiliates. All rights reserved. */
+
+package com.finexus.lesson9;
+
+import java.util.Locale;
+
+public class Customer {
+    private String name;
+    private String ssn;
+    
+ // Encapsulate this class.  Make ssn read only.
+    
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public String getSsn() {
+		return ssn;
+	}
+   
+    
+
+}

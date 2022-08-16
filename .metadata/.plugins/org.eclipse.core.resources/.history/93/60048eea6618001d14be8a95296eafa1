@@ -1,0 +1,20 @@
+package com.finexus.stringbuilder;
+
+public class Demo1 {
+	
+	public static void main(String[] args) {
+		
+		//immutable
+		String color="red"; 
+		
+		color=color+" color";
+		color="yellow";
+		color="blue";
+		
+		
+		StringBuilder strBuilder=new StringBuilder("red");
+		strBuilder.append("")
+		
+	}
+
+}

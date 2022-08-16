@@ -1,0 +1,9 @@
+package com.finexus.movie;
+
+public class Movie {
+	
+	private String movieName;
+	private String actorName;
+	private int year;
+
+}

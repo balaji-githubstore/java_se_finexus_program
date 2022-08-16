@@ -1,0 +1,18 @@
+package com.finexus.overloading;
+
+public class StudentDemo {
+
+	public static void main(String[] args) {
+		
+		Student.schoolName="Global School";
+		
+		Student stu1=new Student();
+		stu1.studentId=1001;
+		stu1.studentName="Kevin";
+		stu1.studentPercentage=85.3;
+		
+
+
+	}
+
+}

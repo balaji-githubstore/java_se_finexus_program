@@ -1,0 +1,32 @@
+package com.finexus.abstraction;
+
+
+abstract class Employee
+{
+	public int empId;
+	public String empName;
+	public double empSalary;
+
+	public void displayEmployeeDetails()
+	{
+		System.out.println("Employee Id: "+empId);
+		System.out.println("Employee Name: "+empName);
+		System.out.println("Employee Salary: "+empSalary);
+		System.out.println("------------------------------------");
+	}
+	
+	public abstract void calculateSalary();
+}
+
+class PermanentEmployee extends Employee
+{
+	
+}
+
+public class EmployeeDemo {
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

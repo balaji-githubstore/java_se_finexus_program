@@ -1,0 +1,18 @@
+package com.finexus.variable;
+
+public class Demo1 {
+
+	public static int aS=10; //static variable or class variable
+	public int aNS=10; //non-static variable or instance variable 
+	
+	
+	public static void main(String[] args) {
+		
+		System.out.println(Demo1.aS);
+		
+		System.out.println(Demo1.aNS);
+	}
+	
+	
+	
+}

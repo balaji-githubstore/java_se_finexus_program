@@ -1,0 +1,18 @@
+package com.finexus.stringmethods;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		
+		String name="Environment Science";
+		
+		
+		int len=name.length();
+		System.out.println(len);
+		
+		char letter=name.charAt(1);
+		System.out.println(letter);
+		
+		
+	}
+}

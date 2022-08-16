@@ -1,0 +1,13 @@
+package com.finexus.print;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		
+		System.out.print("Finexus!!");
+		System.out.println("Hello Everyone!!!");
+		
+		
+	}
+
+}

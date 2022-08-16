@@ -1,0 +1,11 @@
+package com.finexus.logics;
+
+public class Demo1ConditionalStatement {
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.finexus.stringbuilder;
+
+public class Demo1 {
+	
+	public static void main(String[] args) {
+		
+		
+		String color="red"; 
+		
+		color="yellow";
+		
+		color="blue";
+		
+	}
+
+}

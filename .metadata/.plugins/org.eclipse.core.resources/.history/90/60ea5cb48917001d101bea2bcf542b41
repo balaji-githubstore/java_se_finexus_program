@@ -1,0 +1,37 @@
+package com.finexus.methods;
+
+public class Demo1 {
+
+	public static double areaOfCircle(int r) 
+	{
+		double area = 3.14 * r * r;
+		return area;
+	}
+	
+	public static double areaOfRectangle(double length,double width)
+	{
+		return length*width;
+	}
+	
+	//create static methods for areaOfTriangle 
+	public static double areaOfTriangle(double base,double height)
+	{
+		return (base*height)/2;
+	}
+	
+
+	public static void main(String[] args) {
+
+		int radius = 10;
+		
+		double result=Demo1.areaOfCircle(9);
+		System.out.println(result);
+	
+		result=Demo1.areaOfCircle(10);
+		System.out.println(result);
+		
+		result=Demo1.areaOfRectangle(10, 10.2);
+		System.out.println(result);
+	}
+
+}

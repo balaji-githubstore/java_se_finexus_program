@@ -1,0 +1,83 @@
+package com.finexus.abstraction;
+
+abstract class Employee {
+	public int empId;
+	public String empName;
+	private double empSalary;
+	private static int counter=1;
+	
+	//Constructor can be created in abstract class and it will be called on creating object of child. 
+	public Employee()
+	{
+		empId=counter++;  //store the current counter value to empId and then counter=counter+1
+		System.out.println("Constructor in Employee class");
+	}
+
+	public void displayEmployeeDetails() {
+		System.out.println("Employee Id: " + empId);
+		System.out.println("Employee Name: " + empName);
+		System.out.println("Employee Salary: " + empSalary);
+		System.out.println("------------------------------------");
+	}
+
+	public abstract void calculateSalary();
+//	public abstract void calculateBonus();
+	
+	protected void setEmpSalary(double empSalary) {
+		this.empSalary = empSalary;
+	}
+}
+
+class PermanentEmployee extends Employee {
+	public void calculateSalary() {
+		// paid on month basis
+		super.setEmpSalary(30 * 2000);
+	}
+	
+	public void permanentMethod()
+	{
+		System.out.println("Only in PermantEmployee class");
+		System.out.println("------------------------------------");
+	}
+}
+
+class ContractEmployee extends Employee {
+	public void calculateSalary() {
+		// paid hourly basis
+		super.setEmpSalary(8 * 500);
+	}
+}
+
+public class EmployeeDemo {
+	
+	public static void main(String[] args) {
+		
+		Employee emp=new PermanentEmployee();
+		emp.calculateSalary();
+		emp.displayEmployeeDetails();
+		
+		
+		if(emp instanceof PermanentEmployee)
+		{
+			PermanentEmployee p=(PermanentEmployee) emp;
+			p.permanentMethod();
+		}
+			
+		emp=new ContractEmployee();
+		emp.calculateSalary();
+		emp.displayEmployeeDetails();
+		
+		
+
+	}
+
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+package com.finexus.abstraction;
+
+
+abstract class Employee
+{
+	public int empId;
+	public String empName;
+	private double empSalary;
+
+	public void displayEmployeeDetails()
+	{
+		System.out.println("Employee Id: "+empId);
+		System.out.println("Employee Name: "+empName);
+		System.out.println("Employee Salary: "+empSalary);
+		System.out.println("------------------------------------");
+	}
+	
+	public abstract void calculateSalary();
+
+	public void setEmpSalary(double empSalary) {
+		this.empSalary = empSalary;
+	}
+}
+
+class PermanentEmployee extends Employee
+{
+
+	public void calculateSalary() {
+		//paid on month basis
+		super.setEmpSalary(30*2000);
+	}
+
+}
+
+class ContractEmployee extends Employee
+{
+
+	public void calculateSalary() {
+		//paid hourly basis
+		super.setEmpSalary(8*500);
+	}
+	
+}
+
+public class EmployeeDemo {
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

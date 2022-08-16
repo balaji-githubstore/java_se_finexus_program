@@ -1,0 +1,15 @@
+package com.finexus.logics;
+
+public class Demo1ConditionalStatement2 {
+
+	public static void main(String[] args) {
+
+		int num = -10;
+
+		String result = num > 0 ? "positive" : "negative";
+		
+		System.out.println(result);
+
+	}
+
+}
